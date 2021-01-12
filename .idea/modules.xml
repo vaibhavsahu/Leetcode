@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/3Sum/3Sum.iml" filepath="$PROJECT_DIR$/3Sum/3Sum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AlienDictionary/AlienDictionary.iml" filepath="$PROJECT_DIR$/AlienDictionary/AlienDictionary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DungeonBFS/DungeonBFS.iml" filepath="$PROJECT_DIR$/DungeonBFS/DungeonBFS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Permutations/Permutations.iml" filepath="$PROJECT_DIR$/Permutations/Permutations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShortestDistanceFromBuildings/ShortestDistanceFromBuildings.iml" filepath="$PROJECT_DIR$/ShortestDistanceFromBuildings/ShortestDistanceFromBuildings.iml" />
+    </modules>
+  </component>
+</project>
