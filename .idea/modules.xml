@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Permutations/Permutations.iml" filepath="$PROJECT_DIR$/Permutations/Permutations.iml" />
       <module fileurl="file://$PROJECT_DIR$/ShortestDistanceFromBuildings/ShortestDistanceFromBuildings.iml" filepath="$PROJECT_DIR$/ShortestDistanceFromBuildings/ShortestDistanceFromBuildings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SubSets/SubSets.iml" filepath="$PROJECT_DIR$/SubSets/SubSets.iml" />
     </modules>
   </component>
 </project>
