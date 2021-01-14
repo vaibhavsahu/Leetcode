@@ -4,9 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/3Sum/3Sum.iml" filepath="$PROJECT_DIR$/3Sum/3Sum.iml" />
       <module fileurl="file://$PROJECT_DIR$/AlienDictionary/AlienDictionary.iml" filepath="$PROJECT_DIR$/AlienDictionary/AlienDictionary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CoinChange/CoinChange.iml" filepath="$PROJECT_DIR$/CoinChange/CoinChange.iml" />
       <module fileurl="file://$PROJECT_DIR$/DungeonBFS/DungeonBFS.iml" filepath="$PROJECT_DIR$/DungeonBFS/DungeonBFS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/MeetingSchedule||/MeetingSchedule||.iml" filepath="$PROJECT_DIR$/MeetingSchedule||/MeetingSchedule||.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NextPermutation/NextPermutation.iml" filepath="$PROJECT_DIR$/NextPermutation/NextPermutation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Permutations/Permutations.iml" filepath="$PROJECT_DIR$/Permutations/Permutations.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProductExceptSelf/ProductExceptSelf.iml" filepath="$PROJECT_DIR$/ProductExceptSelf/ProductExceptSelf.iml" />
       <module fileurl="file://$PROJECT_DIR$/ShortestDistanceFromBuildings/ShortestDistanceFromBuildings.iml" filepath="$PROJECT_DIR$/ShortestDistanceFromBuildings/ShortestDistanceFromBuildings.iml" />
