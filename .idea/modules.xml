@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/NextPermutation/NextPermutation.iml" filepath="$PROJECT_DIR$/NextPermutation/NextPermutation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Permutations/Permutations.iml" filepath="$PROJECT_DIR$/Permutations/Permutations.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProductExceptSelf/ProductExceptSelf.iml" filepath="$PROJECT_DIR$/ProductExceptSelf/ProductExceptSelf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RotateImage/RotateImage.iml" filepath="$PROJECT_DIR$/RotateImage/RotateImage.iml" />
       <module fileurl="file://$PROJECT_DIR$/ShortestDistanceFromBuildings/ShortestDistanceFromBuildings.iml" filepath="$PROJECT_DIR$/ShortestDistanceFromBuildings/ShortestDistanceFromBuildings.iml" />
       <module fileurl="file://$PROJECT_DIR$/SubSets/SubSets.iml" filepath="$PROJECT_DIR$/SubSets/SubSets.iml" />
     </modules>
