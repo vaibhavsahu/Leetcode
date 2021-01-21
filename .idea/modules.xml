@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/DungeonBFS/DungeonBFS.iml" filepath="$PROJECT_DIR$/DungeonBFS/DungeonBFS.iml" />
       <module fileurl="file://$PROJECT_DIR$/LIS/LIS.iml" filepath="$PROJECT_DIR$/LIS/LIS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MaxProductSubArray/MaxProductSubArray.iml" filepath="$PROJECT_DIR$/MaxProductSubArray/MaxProductSubArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaxSumSubArray/MaxSumSubArray.iml" filepath="$PROJECT_DIR$/MaxSumSubArray/MaxSumSubArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/MeetingSchedule||/MeetingSchedule||.iml" filepath="$PROJECT_DIR$/MeetingSchedule||/MeetingSchedule||.iml" />
       <module fileurl="file://$PROJECT_DIR$/NextPermutation/NextPermutation.iml" filepath="$PROJECT_DIR$/NextPermutation/NextPermutation.iml" />
