@@ -10,15 +10,22 @@
       <module fileurl="file://$PROJECT_DIR$/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaxProductSubArray/MaxProductSubArray.iml" filepath="$PROJECT_DIR$/MaxProductSubArray/MaxProductSubArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaxSumSubArray/MaxSumSubArray.iml" filepath="$PROJECT_DIR$/MaxSumSubArray/MaxSumSubArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.iml" filepath="$PROJECT_DIR$/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/MeetingSchedule||/MeetingSchedule||.iml" filepath="$PROJECT_DIR$/MeetingSchedule||/MeetingSchedule||.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MergeIntervals/MergeIntervals.iml" filepath="$PROJECT_DIR$/MergeIntervals/MergeIntervals.iml" />
       <module fileurl="file://$PROJECT_DIR$/NextPermutation/NextPermutation.iml" filepath="$PROJECT_DIR$/NextPermutation/NextPermutation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Permutations/Permutations.iml" filepath="$PROJECT_DIR$/Permutations/Permutations.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProductExceptSelf/ProductExceptSelf.iml" filepath="$PROJECT_DIR$/ProductExceptSelf/ProductExceptSelf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RainTrappedWater||/RainTrappedWater||.iml" filepath="$PROJECT_DIR$/RainTrappedWater||/RainTrappedWater||.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RainTrappingWater/RainTrappingWater.iml" filepath="$PROJECT_DIR$/RainTrappingWater/RainTrappingWater.iml" />
       <module fileurl="file://$PROJECT_DIR$/RotateImage/RotateImage.iml" filepath="$PROJECT_DIR$/RotateImage/RotateImage.iml" />
       <module fileurl="file://$PROJECT_DIR$/ShortestDistanceFromBuildings/ShortestDistanceFromBuildings.iml" filepath="$PROJECT_DIR$/ShortestDistanceFromBuildings/ShortestDistanceFromBuildings.iml" />
       <module fileurl="file://$PROJECT_DIR$/SubSets/SubSets.iml" filepath="$PROJECT_DIR$/SubSets/SubSets.iml" />
       <module fileurl="file://$PROJECT_DIR$/Trie/Trie.iml" filepath="$PROJECT_DIR$/Trie/Trie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ValidAnagram/ValidAnagram.iml" filepath="$PROJECT_DIR$/ValidAnagram/ValidAnagram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WordLadder/WordLadder.iml" filepath="$PROJECT_DIR$/WordLadder/WordLadder.iml" />
       <module fileurl="file://$PROJECT_DIR$/WordSearch/WordSearch.iml" filepath="$PROJECT_DIR$/WordSearch/WordSearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
   </component>
 </project>
