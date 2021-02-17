@@ -7,10 +7,9 @@ import java.util.Queue;
 
 public class Main {
     public static void main(String[] args) {
-
-        char [][] matrix = {{'a','b','c'},{'a','e','d'},{'a','f','g'}};
-        String [] words = {"abcdefg","gfedcbaaa","eaabcdgfa","befa","dgc","ade"};
-        //["abcdefg","befa","eaabcdgfa","gfedcbaaa"]
+        char [][] matrix = {{'a','b'},
+                            {'c','d'}};
+        String [] words = {"ab","cb","ad","bd","ac","ca","da","bc","db","adcb","dabc","abb","acb"};
 
         List<String> foundWords = findWords(matrix, words);
         System.out.println(foundWords);
@@ -38,9 +37,12 @@ public class Main {
         for(Pair<Integer, Integer> index: indices){
             boolean [][] visited = new boolean[matrix.length][matrix[0].length];
            found  = findWordHelper(matrix, index, word, visited);
+           if(found){
+               return true;
+           }
         }
 
-        return found;
+        return false;
     }
 
     private static boolean findWordHelper(char[][] matrix, Pair<Integer, Integer> index,
@@ -52,6 +54,10 @@ public class Main {
             if(matrix[index.getKey()][index.getValue()] == word.charAt(0)){
                 return true;
             }
+        }
+
+        if(word.length() == 1 && matrix[index.getKey()][index.getValue()] == word.charAt(0)){
+            return true;
         }
 
         Queue<Pair<Integer, Integer>> queue = new LinkedList<>();
@@ -73,10 +79,11 @@ public class Main {
                         visited[neighbor.getKey()][neighbor.getValue()] = true;
                         if(counter == word.length()-1){
                             found = true;
-                            break;
+                        } else {
+                            queue.add(new Pair<>(neighbor.getKey(), neighbor.getValue()));
+                            counter++;
                         }
-                        queue.add(new Pair<>(neighbor.getKey(), neighbor.getValue()));
-                        counter++;
+                        break;
                     }
                 }
             }
