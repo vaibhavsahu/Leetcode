@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/3Sum/3Sum.iml" filepath="$PROJECT_DIR$/3Sum/3Sum.iml" />
       <module fileurl="file://$PROJECT_DIR$/AlienDictionary/AlienDictionary.iml" filepath="$PROJECT_DIR$/AlienDictionary/AlienDictionary.iml" />
       <module fileurl="file://$PROJECT_DIR$/CoinChange/CoinChange.iml" filepath="$PROJECT_DIR$/CoinChange/CoinChange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CountCompleteBinaryTree/CountCompleteBinaryTree.iml" filepath="$PROJECT_DIR$/CountCompleteBinaryTree/CountCompleteBinaryTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/DungeonBFS/DungeonBFS.iml" filepath="$PROJECT_DIR$/DungeonBFS/DungeonBFS.iml" />
       <module fileurl="file://$PROJECT_DIR$/LIS/LIS.iml" filepath="$PROJECT_DIR$/LIS/LIS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode.iml" />

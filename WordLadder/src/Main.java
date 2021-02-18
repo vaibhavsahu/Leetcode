@@ -1,34 +1,70 @@
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
-        String beginWord = "hot";
-        String endWord = "dog";
+        String beginWord = "hit";
+        String endWord = "cog";
 
-        String [] wordList = {"hot","dog","dot"};
+        String [] wordList = {"hot","dot","dog","lot","log","cog"};
 
-        int count = transformationCount(beginWord, endWord, wordList);
+        int count = transformationCount(beginWord, endWord, Arrays.asList(wordList));
         System.out.println(count);
     }
 
-    private static int transformationCount(String beginWord, String endWord, String[] wordList) {
+    private static int transformationCount(String beginWord, String endWord, List<String> wordList) {
 
-        List<String> words = Arrays.asList(wordList).stream().collect(Collectors.toList());
+        //number of levels
 
-        int count = 0;
+        if(!wordList.contains(endWord)){
+            return 0;
+        }
 
-        if(words.contains(endWord)){
-            for(String word : wordList){
-                if(distanceFromWord(beginWord, word) == 1){
-                    count++;
-                    beginWord = word;
+        Queue<String> queue = new LinkedList<>();
+
+        int count = 1;
+
+        Set<String> set = new HashSet<>();
+        queue.add(beginWord);
+        set.add(beginWord);
+
+        while(!queue.isEmpty()){
+            String word = queue.remove();
+
+            if(word == endWord){
+                return count;
+            }
+
+            List<String> oneEditWords = findAllWordsAtDistanceOne(word, wordList, set);
+
+            if(oneEditWords.size() >= 1 && !oneEditWords.contains(endWord)){
+                //count = count-oneEditWords.size();
+                count++;
+            }
+
+            for(String w : oneEditWords){
+                if(!set.contains(w)){
+                    set.add(w);
+                   // count++;
                 }
+                queue.add(w);
             }
         }
 
         return count;
+    }
+
+    private static List<String> findAllWordsAtDistanceOne(String word, List<String> wordList, Set<String> set) {
+        List<String> words = new ArrayList<>();
+        for(String w : wordList){
+            if(!w.equals(word) && !set.contains(w)){
+                int distance = distanceFromWord(word, w);
+                if( distance == 1 || distance == 0){
+                    words.add(w);
+                }
+            }
+        }
+        return words;
     }
 
     private static int distanceFromWord(String word1, String word2) {
